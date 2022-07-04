@@ -1,0 +1,12 @@
+{
+  "name": "aspire",
+  "description": "Clean News & Magazine Ghost Theme",
+  "authors": [
+    "Aspire Themes"
+  ],
+  "dependencies": {
+    "jQuery-viewport-checker": "^1.8.8",
+    "jquery.fitvids": "fitvids#^1.1.0",
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Next": "Siguiente",
+  "Previous": "Anterior",
+  " (Page %)": " (Sivu %)",
+  "Page Not Found": "Sivua ei löydetty",
+  "Recent Posts": "Uusimmat artikkelit",
+  "Home Page": "Kotisivu",
+  "Featured Post": "Esitetty artikkelit",
+  "Share on Twitter": "Jaa Twitter",
+  "Share on Facebook": "Jaa Facebook",
+  "Share on Pinterest": "Jaa Pinterest",
+  "Search": "Hae",
+  "Search {blogtitle}": "Hae {blogtitle}",
+  "Type to Search": "kirjoita hakua",
+  "Published with {ghostLink} & {themeLink}": "Julkaistu {ghostLink} & {themeLink}",
+  "You Might Be Interested In": "Saatat olla kiinnostunut",
+  "Newsletter": "Hoja informativa",
+  "Follow": "seurata",
+
+  "Email": "Sähköposti",
+  "Account": "Tili",
+  "Log In": "Kirjaudu sisään",
+  "Continue": "Jatkaa",
+  "Subscribe": "Tilaa",
+  "Enter your email below to join our newsletter": "Ingrese su correo electrónico a continuación para unirse a nuestro boletín de noticias",
+  "Please check your inbox and click the link to complete the login.": "Tarkista postilaatikkosi ja napsauta linkkiä suorittaaksesi sisäänkirjautumisen.",
+  "Please check your inbox and click the link to confirm your subscription.": "Tarkista postilaatikko ja napsauta linkkiä vahvistaaksesi tilauksesi.",
+  "Please enter a valid email address!": "Ole hyvä ja syötä toimiva sähköpostiosoite!",
+  "An error occurred, please try again later.": "Tapahtui virhe, yritä myöhemmin uudelleen.",
+
+  "Already have an account?": "Onko sinulla jo tili?",
+  "Don't have an account yet?": "Eikö sinulla ole vielä tiliä?",
+
+  "This post is for paying subscribers only": "Tämä viesti on tarkoitettu vain maksaville tilaajille",
+  "This post is for subscribers only": "Tämä viesti on tarkoitettu vain tilaajille",
+  "This post is for subscribers on the ": "Tämä viesti on tilaajille ",
+  "Upgrade your account": "Päivitä käyttäjätilisi"
+}

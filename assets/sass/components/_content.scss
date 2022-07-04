@@ -1,0 +1,111 @@
+/*------------------------------------*\
+  Components > Content
+\*------------------------------------*/
+
+.c-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: $font-serif;
+  word-break: break-word;
+
+  > * {
+    min-width: 100%;
+  }
+
+  > * + * {
+    margin-top: double($base-spacing-unit);
+  }
+
+  @include mq($until: tablet) {
+    img {
+      max-width: 100vw;
+      pointer-events: none;
+    }
+  }
+
+  a:not(.c-btn) {
+    text-decoration: underline;
+    text-decoration-skip: ink;
+
+    @include attention() {
+      color: $color-brand;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-sans-serif;
+    font-weight: $font-weight-bold;
+
+    + * {
+      margin-top: half($base-spacing-unit);
+    }
+  }
+
+  hr {
+    margin-bottom: 0;
+  }
+
+  dd,
+  ol,
+  ul {
+    // Target Safari Only
+    &:not(:root:root) {
+      -webkit-padding-start: half($base-spacing-unit);
+    }
+  }
+
+  // Hide Ghost built-in upgrade call to action box
+  .gh-post-upgrade-cta {
+    display: none;
+    visibility: hidden
+  }
+}
+
+// Koenig Editor
+
+.kg-image {
+  margin: auto;
+}
+
+.kg-embed-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  > * {
+    width: 100%;
+  }
+}
+
+.kg-card figcaption {
+  width: 100%;
+  text-align: center;
+  color: $color-gray;
+  font-size: $font-size-small;
+  font-family: $font-sans-serif;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-small;
+  margin-top: half($base-spacing-unit) + half(quarter($base-spacing-unit));
+  padding-left: half($base-spacing-unit) + half(quarter($base-spacing-unit));
+  padding-right: half($base-spacing-unit) + half(quarter($base-spacing-unit));
+}
+
+.is-page .c-content {
+  .kg-width-full .kg-image {
+    @include mq($from: tablet) {
+      max-width: 100vw;
+      pointer-events: none;
+    }
+  }
+
+  .kg-width-wide .kg-image {
+    @include mq($from: tablet) {
+      max-width: 75vw;
+    }
+
+    @include mq($from: desktop) {
+      max-width: 65vw;
+    }
+  }
+}

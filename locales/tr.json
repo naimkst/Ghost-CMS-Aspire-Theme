@@ -1,0 +1,38 @@
+{
+  "Next": "Sonraki",
+  "Previous": "Önceki",
+  " (Page %)": " (Sayfa %)",
+  "Page Not Found": "Sayfa Bulunamadı",
+  "Recent Posts": "Son Gönderiler",
+  "Home Page": "AnaSayfa",
+  "Featured Post": "Öne Çıkan Gönderiler",
+  "Share on Twitter": "Twitter'da Paylaş",
+  "Share on Facebook": "Facebook'ta Paylaş",
+  "Share on Pinterest": "Pinterest'te Paylaş",
+  "Search": "Ara",
+  "Search {blogtitle}": "{blogtitle} sitesinde Ara",
+  "Type to Search": "Aramak için Yazın",
+  "Published with {ghostLink} & {themeLink}": "{ghostLink} & {themeLink} ile oluşturuldu",
+  "You Might Be Interested In": "Bunlarla da İlgilenebilirsin",
+  "Newsletter": "Bülten",
+  "Follow": "Takip Et",
+
+  "Email": "E-Posta",
+  "Account": "Hesap",
+  "Log In": "Giriş Yap",
+  "Continue": "Devam Et",
+  "Subscribe": "Abone Ol",
+  "Enter your email below to join our newsletter": "Bültene kayıt olmak için e-postanızı girin",
+  "Please check your inbox and click the link to complete the login.": "Lütfen gelen kutunuzu kontrol edin ve girişi tamamlamak için bağlantıya tıklayın.",
+  "Please check your inbox and click the link to confirm your subscription.": "Lütfen gelen kutunuzu kontrol edin ve aboneliğinizi onaylamak için bağlantıya tıklayın.",
+  "Please enter a valid email address!": "Lütfen geçerli bir e-posta adresi girin!",
+  "An error occurred, please try again later.": "Bir hata meydana geldi, lütfen tekrar deneyin.",
+
+  "Already have an account?": "Zaten bir hesabınız var mı?",
+  "Don't have an account yet?": "Henüz bir hesabınız yok mu?",
+
+  "This post is for paying subscribers only": "Bu gönderi yalnızca ücretli aboneler içindir",
+  "This post is for subscribers only": "Bu gönderi yalnızca aboneler içindir",
+  "This post is for subscribers on the ": "Bu gönderi, aboneler içindir ",
+  "Upgrade your account": "Hesabınızı yükseltin"
+}

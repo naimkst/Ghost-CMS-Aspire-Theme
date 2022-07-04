@@ -1,0 +1,25 @@
+/*------------------------------------*\
+  Components > Post
+\*------------------------------------*/
+
+.c-post {
+  > * + * {
+    margin-top: double($base-spacing-unit);
+  }
+
+  &__date {
+    color: $color-gray;
+    font-size: $font-size-small;
+  }
+
+  &__title {
+    font-weight: $font-weight-bold;
+    line-height: initial;
+    margin-top: 0;
+    margin-bottom: double($base-spacing-unit);
+
+    @include mq($from: desktop) {
+      font-size: $font-size-h1;
+    }
+  }
+}
